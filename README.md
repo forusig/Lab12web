@@ -24,7 +24,7 @@ Masih menggunakan method GET, hanya perlu menambahkan ID artikel di belakang URL
 http://localhost:8080/post/2 
 - Selanjutnya, klik Send. Request tersebut akan menampilkan data artikel yang memiliki ID nomor 2 di database.
 
-![Menampilkan Data Spesifik](img/Data_Spesifisik.png)
+
 
 ## Mengubah Data
 Untuk mengubah data, silakan ganti method menjadi PUT. Kemudian, masukkan URL artikel yang ingin diubah. Misalnya, ingin mengubah data artikel dengan ID nomor 2, maka masukkan URL berikut: http://localhost:8080/post/2 Selanjutnya, pilih tab Body. Kemudian, pilih x-www-form-uriencoded. Masukkan nama atribut tabel pada kolom KEY dan nilai data yang baru pada kolom VALUE. Kalau sudah, klik Send.
